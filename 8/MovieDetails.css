@@ -1,0 +1,37 @@
+/* src/components/MovieDetails.css */
+.movie-details-container {
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width for better readability */
+    margin: 20px auto; /* Center the container */
+    text-align: center; /* Center text */
+}
+
+.movie-title {
+    font-size: 2rem; /* Large font size for the title */
+    color: #333; /* Dark color for the title */
+    margin-bottom: 15px; /* Space below the title */
+}
+
+.movie-description {
+    font-size: 1.2rem; /* Slightly larger font for description */
+    color: #666; /* Gray color for description text */
+    margin-bottom: 20px; /* Space below the description */
+}
+
+.book-seat-button {
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1rem; /* Font size for the button */
+    color: white; /* White text color */
+    background-color: #007bff; /* Blue background color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition for background color */
+}
+
+.book-seat-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
